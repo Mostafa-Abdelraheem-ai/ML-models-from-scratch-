@@ -1,3 +1,8 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt 
+np.random.seed(0)
+
 class LayerDens:
     # weights = n_inputs * n_neurons
     # inputs = n_sampels * n_inputs
